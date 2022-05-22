@@ -9,14 +9,16 @@
  *
  * function fn (array, entry) {...}
  *
- * 2. Executes the array.find() method to find the `entry`
+ * 2. Executes the  (encuentra  el primer  elemento que satisface ) array.find() method to find the `entry`
  *    in the `array` parameter that the function receives.
  *
  * 3. Returns the result
  */
 
 // Finish the code of the function
-function exercise11() {}
+function exercise11(array, entry) {
+    return array.find ((e) => e==entry)
+}
 
 // Don’t change the code bellow this line
 export default exercise11;

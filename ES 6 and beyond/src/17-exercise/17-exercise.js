@@ -11,7 +11,7 @@
  * 2. Obtains the data from the fetch() call and executes several .then()
  *    method calls until it can get the data returned from the api.
  *
- *    Once it has the data inside the .then() call, it should execute
+ *    Once it has the data inside the (la invocara cuando resuelva la promesa) .then() call, it should execute
  *    the `displayContents` function by passing it as an argument
  *    the response data returned by the fetch json() method.
  *
@@ -21,7 +21,11 @@
  */
 
 // Finish the code of the function
-function exercise17() {}
+function exercise17() {
+    fetch ("https://jsonplaceholder.typicode.com/users/1")
+    .then(res=> res.json())
+    .then(displayContents)
+}
 
 // Don’t change the code bellow this line
 function displayContents(data) {

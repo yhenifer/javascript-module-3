@@ -9,6 +9,10 @@
  * 2. Export the variable as a named export
  *
  * @example
- *
+ * 
  * export const test = 1;
  */
+export const BASE_URL= "https://jsonplaceholder.typicode.com/users"
+
+//export{BASE_URL}
+

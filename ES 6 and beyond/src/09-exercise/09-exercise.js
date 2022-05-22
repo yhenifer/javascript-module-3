@@ -3,7 +3,7 @@
  *
  * Finish the code of the `exercise09` function so that it:
  *
- * 1. Executes the Array.flat() method on the `days` array
+ * 1. Executes the  (aplanar una  Array) method on the `days` array
  *
  * 2. Returns the result
  */
@@ -17,6 +17,7 @@ function exercise09() {
         ["Thursday"],
         ["Friday"],
     ];
+ return days.flat()   
 }
 
 // Don’t change the code bellow this line

@@ -3,7 +3,7 @@
  *
  * Finish the code of the `exercise10` function so that it:
  *
- * 1. Executes the Array.from() method on the `message` variable
+ * 1. Executes the (construir un array a partir de una cosa / metodo estatico/) Array.from() method on the `message` variable
  *
  * 2. Returns the result
  */
@@ -11,7 +11,8 @@
 // Finish the code of the function
 function exercise10() {
     const message = "hello-world";
+    return Array.from (message)
 }
-
+    
 // Don’t change the code bellow this line
 export default exercise10;
