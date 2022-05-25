@@ -1,0 +1,12 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "In this project you must create your own website for the famous television series Rick and Morty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
